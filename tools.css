@@ -1,0 +1,111 @@
+body{
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.wrapper {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    height: 120px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top:40px;
+    width: 60vw;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wrapper .icon {
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    padding: 5px 8px;
+    background: #fff;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+.wrapper li:hover,
+.wrapper li:hover .tooltip,
+.wrapper li:hover .tooltip::before {
+    background: #2f4566;
+    color: #fff;
+}
+
+.wrapper svg{
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    width: 80px;
+    transition-duration: 0.2s;
+
+}
+
+
+.wrapper li:hover svg {
+    fill: #f2f2f3;
+}
+
+
+
+.tools-title{
+    font-family: Roboto, sans-serif;
+    color: #2f4566;
+    margin-left: 70px;
+    font-size: 30px;
+    margin-top: 100px   ;
+
+}

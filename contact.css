@@ -1,0 +1,52 @@
+body {
+    overflow-x: hidden;
+    background-color: #f5F5F5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+.contact{
+    margin-top: 120px;
+}
+.contact-title{
+    margin-left: 60px;
+    margin-top:120px ;
+    color: #2F4566FF;
+    font-family: Roboto, sans-serif;
+}
+
+.contact-form{
+    margin-top: 120px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+textarea {
+    width: 300px;
+    max-width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-x: hidden;
+}
+
+
+
+
+.button-envoyer {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #2F4566FF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-envoyer:hover {
+    background-color: #1c2d44;
+}

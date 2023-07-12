@@ -1,0 +1,66 @@
+.guide-contain{
+    width: 600px;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 120px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide-contain img {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    margin-left: -30px;
+    border-radius: 50%;
+
+}
+
+.guide-contain h2{
+    font-family: Roboto, sans-serif;
+    color: #2f4566;
+    max-width: 250px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.big-guide-title{
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    color: #2f4566;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+.guide-contain a{
+    height: 40px;
+    background-color: #2f4566;
+    width: 130px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    right: 20px ;
+}
+
+
+.big-contain-guides{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    margin-bottom: 100px;
+}

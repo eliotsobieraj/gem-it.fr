@@ -1,0 +1,63 @@
+body{
+    background-color: #f5F5F5;
+    margin: 0;
+}
+
+
+.class-contain{
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    margin-top:120px ;
+    margin-bottom: 120px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.class-contain button{
+    height: 100px;
+    background-color: #f5F5F5;
+    border: transparent;
+    box-shadow: 5px 5px 10px #d0D0D0, -5px -5px 10px #fff;
+    width: 100px;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+    font-family:Serif,sans-serif ;
+}
+
+.class-contain button:hover{
+    border: 2px solid white;
+    color:#a8c3d5;
+}
+
+.class-contain button:active{
+    box-shadow: none;
+}
+
+
+.prem-annee{
+    font-size: 40px;
+    color: #00ca4e;
+}
+
+.deux-annee{
+    font-size: 40px;
+    color: #03A9F4;
+}
+
+.troi-annee{
+    font-size: 40px;
+    color: #ff605c;
+}
+
+.quat-annee{
+    font-size: 40px;
+    color: #ffb700;
+}
+
+.cinq-annee{
+    font-size: 40px;
+    color: #cc39a4;
+}

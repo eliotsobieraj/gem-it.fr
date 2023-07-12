@@ -1,0 +1,32 @@
+body{
+    background-color: #f5F5F5;
+    overflow-x: hidden;
+}
+
+.phone-carroussel{
+    display: none;
+}
+
+
+@media screen and (max-width: 700px){
+    .carroussel{
+        display: none;
+    }
+    .header-include{
+        margin-bottom: 200px;
+    }
+    .bde-include{
+        display: none;
+    }
+}
+
+.burger svg{
+    fill: #2f4566;
+}
+
+
+@media screen and (max-width: 500px){
+    .phone-carroussel{
+        display: initial;
+    }
+}

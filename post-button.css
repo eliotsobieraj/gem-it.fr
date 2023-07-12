@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+
+.post-button{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    font-size: 40px;
+    border-radius: 50%;
+    color: #2f4566;
+    border: none;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 30px;
+    left: 10px;
+}
+
+
+.post-button a{
+    color: #2f4566;
+    text-decoration: none;
+    padding-bottom: 7px;
+}
