@@ -3,15 +3,10 @@ body{
     overflow-x: hidden;
 }
 
-.phone-carroussel{
-    display: none;
-}
 
 
 @media screen and (max-width: 700px){
-    .carroussel{
-        display: none;
-    }
+
     .header-include{
         margin-bottom: 200px;
     }

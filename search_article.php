@@ -29,7 +29,7 @@ include "header.php";
 if (isset($_GET['search'])) {
     $search = $_GET['search'];
     try {
-        $bdd = new PDO("mysql:host=localhost;dbname=test;charset=utf8", 'root', '<Rj3!zW!FM?;\!.V');
+        $bdd = new PDO("mysql:host=localhost;dbname=test;charset=utf8", 'root', 'root');
     } catch (Exception $e) {
         echo "Erreur :" . $e->getMessage();
     }

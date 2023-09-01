@@ -13,7 +13,7 @@ session_start();
 $host = 'localhost';
 $dbname = 'test';
 $username = 'root';
-$password = '<Rj3!zW!FM?;\!.V';
+$password = 'root';
 
 try {
     $db = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);

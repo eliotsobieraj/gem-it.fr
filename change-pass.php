@@ -7,7 +7,7 @@ if (isset($_SESSION['username'])) {
     $host = 'localhost';
     $dbname = 'test';
     $dbusername = 'root';
-    $dbpassword = '<Rj3!zW!FM?;\!.V';
+    $dbpassword = 'root';
 
     try {
         $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $dbusername, $dbpassword);

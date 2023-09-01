@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "<Rj3!zW!FM?;\!.V";
+$password = "root";
 $dbname = "test";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -37,7 +37,7 @@ if ($result->num_rows > 0) {
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GEM-IT</title>
     <link rel="icon" type="image/x-icon" href="images/GEM-IT.jpg">
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="login.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

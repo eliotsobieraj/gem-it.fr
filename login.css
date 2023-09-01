@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+
+.back-color-left{
+    position: absolute;
+    z-index: 1;
+    width: 50vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #a8c3d5;
+}
+.back-color-right{
+    position: absolute;
+    z-index: 1;
+    width: 50vw;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    background-color: #2A446B;
+}
+.big-login-contain{
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    border-radius: 20px;
+}
+
+.login-form-contain{
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+    top: 0;
+    height: calc(100vh - 100px);
+    width: calc(100vw - 140px);
+    background-color: #f5F5F5;
+}
+
+.login-form-color-right{
+    height: calc( 100vh - 100px);
+    width: calc(50vw - 70px);
+    background-color:#a8c3d5 ;
+    position: absolute;
+    border-radius: 0 20px 20px 0;
+    right: 0;
+}
+
+
+.login-svg{
+    height: auto;
+    width: 40vw;
+    position:absolute;
+    bottom:40px;
+    left: -60px;
+}
+.login-gem-it-logo{
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+}
+
+.login-form{
+    height: calc(100vh - 100px);
+    width: calc(50vw - 70px);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.login-input{}
+
+.login-title{
+    font-family: Roboto Mono, sans-serif;
+    font-size: 30px;
+    color: #2A446B;
+}

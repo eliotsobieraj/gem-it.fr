@@ -8,4 +8,5 @@
 .carousel img{
     background-color: #2f4566;
     height: 400px;
+    width: 100vw;
 }

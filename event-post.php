@@ -39,7 +39,7 @@ ob_end_flush();
 
     <?php
     try {
-        $bdd = new PDO("mysql:host=localhost;dbname=test;charset=utf8", 'root', '<Rj3!zW!FM?;\!.V');
+        $bdd = new PDO("mysql:host=localhost;dbname=test;charset=utf8", 'root', 'root');
     } catch (Exception $e) {
         echo "Erreur :" . $e->getMessage();
     }
