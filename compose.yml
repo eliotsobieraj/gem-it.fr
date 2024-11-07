@@ -1,0 +1,32 @@
+services:
+    app:
+        build: .
+        image: gem-it.fr:latest
+        ports:
+            - "8000:80"
+        env_file:
+            - .env
+        volumes:
+            - ./:/var/www/html
+        depends_on:
+            mariadb:
+                condition: service_started
+
+    mariadb:
+        image: mariadb:10.6.15
+        environment:
+            MARIADB_DATABASE: ${MARIADB_DATABASE}
+            MARIADB_USER: ${MARIADB_USER}
+            MARIADB_PASSWORD: ${MARIADB_PASSWORD}
+            MARIADB_RANDOM_ROOT_PASSWORD: ${MARIADB_RANDOM_ROOT_PASSWORD}
+
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin:latest
+        depends_on:
+            - mariadb
+        environment:
+            PMA_HOST: mariadb
+            PMA_PORT: 3306
+            PMA_ARBITRARY: 1
+        ports:
+            - "8080:80"
