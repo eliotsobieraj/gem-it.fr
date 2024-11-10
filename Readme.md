@@ -5,7 +5,9 @@ Creating a website using the Symfony framework and Tailwind CSS.
 
 ⚠️ **Prerequisite**: Docker must be installed on your machine.
 
-> **Note**: if you don't have make installed on your pc you may want to look at what each alias refers to in the Makefile
+> **Note**: 
+> - If you don't have make installed on your pc you may want to look at what each alias refers to in the Makefile
+> - Don't forget to update the environment variables linked to Azure authentication before launching the project 
 
 ---
 
@@ -31,9 +33,9 @@ make migration
 - **PhpMyAdmin**: [http://localhost:8080](http://localhost:8080)
 
 > **Note**: After each modification to CSS or JS, run the following command to compile assets:
-```bash
-make asset
-```
+>```bash
+> make asset
+>```
 
 ---
 
